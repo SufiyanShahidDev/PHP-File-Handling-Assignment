@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP File Handling Assignment</title>
+</head>
+
+<body>
+
+    <?php
+
+    $fp = fopen('datum.txt', 'w');
+    fwrite(
+        $fp,
+        '
+PHP MCQs
+Q1. Which PHP function is used to count array elements?
+
+A) total()
+B) count()
+C) size()
+D) length()
+
+Answer: B) count()
+
+Q2. Which symbol is used to start a variable in PHP?
+
+A) #
+B) $
+C) @
+D) &
+
+Answer: B) $
+
+Q3. Which PHP superglobal is used to collect form data sent via POST method?
+
+A) $_GET
+B) $_POST
+C) $_REQUEST
+D) $_FORM
+
+Answer: B) $_POST
+
+Q4. Which function is used to connect MySQL database in PHP?
+
+A) mysql_connect()
+B) connect_db()
+C) mysqli_connect()
+D) db_connect()
+
+Answer: C) mysqli_connect()
+
+Q5. What will be the output?
+echo 10 . 5;
+
+A) 15
+B) 105
+C) Error
+D) 10.5
+
+Answer: B) 105
+( . is concatenation operator )
+
+Bootstrap MCQs
+Q6. Which Bootstrap class is used to create a button?
+
+A) .btn
+B) .button
+C) .btn-style
+D) .button-primary
+
+Answer: A) .btn
+
+Q7. Which class is used for responsive images in Bootstrap?
+
+A) .img-responsive
+B) .img-fluid
+C) .image-responsive
+D) .responsive-img
+
+Answer: B) .img-fluid
+
+Q8. Bootstrap grid system is based on how many columns?
+
+A) 10
+B) 12
+C) 16
+D) 8
+
+Answer: B) 12
+
+Q9. Which class is used to create a navigation bar in Bootstrap?
+
+A) .nav-bar
+B) .navbar
+C) .navigation
+D) .nav
+
+Answer: B) .navbar
+
+Q10. Which class adds margin in Bootstrap?
+
+A) .p-3
+B) .m-3
+C) .margin-3
+D) .space-3
+
+Answer: B) .m-3                 
+'
+    );
+
+    fclose($fp);
+    echo "File has been written.";
+
+    ?>
+
+</body>
+
+</html>
