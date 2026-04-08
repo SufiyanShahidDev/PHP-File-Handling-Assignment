@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <?php
 
     $fp = fopen('datum.txt', 'w');
