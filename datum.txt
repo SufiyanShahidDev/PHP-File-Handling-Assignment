@@ -1,5 +1,7 @@
 Do it yourself first
 
+then goto AI when you don't know the answer 
+
 PHP MCQs
 Q1. Which PHP function is used to count array elements?
 
