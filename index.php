@@ -115,8 +115,6 @@ Answer: B) .m-3
 
     ?>
 
-
-...
 </body>
 
 </html>
