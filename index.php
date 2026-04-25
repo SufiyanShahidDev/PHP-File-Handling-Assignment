@@ -107,8 +107,7 @@ B) .m-3
 C) .margin-3
 D) .space-3
 
-Answer: B) .m-3  
-               
+Answer: B) .m-3               
 '
     );
 
